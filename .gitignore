@@ -15,6 +15,16 @@ data/raw/
 *.index
 *.bin
 
+# Test & tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
 # IDE
 .idea/
 .vscode/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
